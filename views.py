@@ -33,6 +33,13 @@ class Views:
         print("┃ 0. Retour                  ┃")
         print("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
         return int(input("Votre choix : "))
+    
+    def serie(self, config, serie):
+        self.cls()
+        print("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓")
+        print("┃ {0} ".format(serie))
+        print("┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
+        return int(input("Votre choix : "))
 
     def config(self, config):
         self.cls()
